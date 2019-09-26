@@ -43,6 +43,7 @@ Cherwell is a work flow manager that is further enabled by xMatters, by being ab
 3. In the **Setup** tab, fill out the required inputs
 4. In the **Run Location** tab, leave it on `Cloud` if you have an exposed endpoint, or change it to `xMatters agent` if you installed the agent, then select the Cherwell server
 5. In the **Endpoint** tab, click `Create Endpoint`, and fill it out with the following values
+
 | Key | Value |
 | --- | --- |
 | Name | Cherwell |
