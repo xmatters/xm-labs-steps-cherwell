@@ -22,7 +22,7 @@ This document details how to install and use these steps.
 * [annotate-object.js](./annotate-object.js) - This is the script inside the `Annotate Object` step
 
 # Introduction - How it works
-Cherwell is a work flow manager that is further enabled by xMatters, by being able to create and update incidents from any flow.
+Cherwell is a powerful incident management application that allows for complex business logic without code. This integration adds capability to any xMatters integration to open new Incidents and to add annotations to Incidents or other objects in Cherwell.
 
 # Installation
 
@@ -32,17 +32,25 @@ Cherwell is a work flow manager that is further enabled by xMatters, by being ab
 ![create-client](./media/create-client.png)
 
 ## xMatters Setup
-1. Down the [Cherwell.zip](./Cherwell.zip) file onto your local computer
+1. Download the [Cherwell.zip](./Cherwell.zip) file onto your local computer
 2. Navigate to the Developer tab of your xMatters instance
 3. Click **Import Plan**, and select the zip file you just downloaded
 
 
 ## Usage
-1. To use the Cherwell actions, you must have a Cherwell server with an exposed endpoint, or with the xMatters agent installed. For instructions on installing the xMatters agent, [see here](https://help.xmatters.com/ondemand/xmodwelcome/xmattersagent/xmatters-agent-topic.htm)
-2. To use a step, click and drag it into the flow, then double click the step to edit it
-3. In the **Setup** tab, fill out the required inputs
-4. In the **Run Location** tab, leave it on `Cloud` if you have an exposed endpoint, or change it to `xMatters agent` if you installed the agent, then select the Cherwell server
-5. In the **Endpoint** tab, click `Create Endpoint`, and fill it out with the following values
+Note: To use the Cherwell actions, you must have a Cherwell server with an exposed endpoint, or with the xMatters agent installed. For instructions on installing the xMatters agent, [see here](https://help.xmatters.com/ondemand/xmodwelcome/xmattersagent/xmatters-agent-topic.htm)
+
+### Create Incident Step
+1. To use the Create Incident Step, click and drag it into the flow, then double click the step to edit it
+2. In the **Setup** tab, drag in the required inputs - `Short Description`, `Description`, `Owned By Team`, `Priority`, and `Customer ID`
+3. In the **Run Location** tab, leave it on `Cloud` if you have an exposed endpoint, or change it to `xMatters agent` if you installed the agent, then select the Cherwell server
+4. In the **Endpoint** tab, click `Create Endpoint`, and fill it out with the following values
+
+### Annotate Object Step
+1. To use the Annotate Object Step, click and drag it into the flow, then double click the step to edit it
+2. In the **Setup** tab, drag in the required inputs - `Parent Rec ID`, `Parent Type Name`, and `Details`
+3. In the **Run Location** tab, leave it on `Cloud` if you have an exposed endpoint, or change it to `xMatters agent` if you installed the agent, then select the Cherwell server
+4. In the **Endpoint** tab, click `Create Endpoint`, and fill it out with the following values
 
 | Key | Value |
 | --- | --- |
