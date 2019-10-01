@@ -17,7 +17,7 @@ This document details how to install and use these steps.
 * Cherwell server
 
 # Files
-* [Cherwell.zip](./Cherwell.zip) - This is the Communication that holds the Cherwell steps
+* [CherwellSteps.zip](./CherwellSteps.zip) - This is the Communication that holds the Cherwell steps
 * [create-incident.js](./create-incident.js) - This is the script inside the `Create Incident` step
 * [annotate-object.js](./annotate-object.js) - This is the script inside the `Annotate Object` step
 
