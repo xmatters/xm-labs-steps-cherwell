@@ -66,3 +66,22 @@ Note: It may be in your interest to create a Constant for the Customer ID in the
 * `Cherwell Base URL` will be http://localhost if you have installed the xMatters agent, or whatever exposed URL you have if not
 * `Cherwell Username` and `Cherwell Password` are your username and password
 * `Cherwell Client ID` is the client id you created in [Cherwell Setup](#cherwell-setup)
+
+# Example Usage:
+
+This is showing the Create Incident being triggered from a response. 
+
+<kbd>
+	<img src="media/CherwellCreateExample.png">
+</kbd>
+
+Editing the step shows details of the input mapping:
+
+<kbd>
+	<img src="media/CherwellCreateExample1.png">
+</kbd>
+
+The Annotate step requires the Incident Rec ID so that the journal entry can be associated to a parent record. 
+<kbd>
+	<img src="media/CherwellAnnotateExample.png">
+</kbd>
