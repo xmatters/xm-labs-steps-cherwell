@@ -18,8 +18,6 @@ This document details how to install and use these steps.
 
 # Files
 * [CherwellSteps.zip](./CherwellSteps.zip) - This is the Communication that holds the Cherwell steps
-* [create-incident.js](./create-incident.js) - This is the script inside the `Create Incident` step
-* [annotate-object.js](./annotate-object.js) - This is the script inside the `Annotate Object` step
 
 # Introduction - How it works
 Cherwell is a powerful incident management application that allows for complex business logic without code. This integration adds capability to any xMatters integration to open new Incidents and to add annotations to Incidents or other objects in Cherwell.
@@ -32,7 +30,7 @@ Cherwell is a powerful incident management application that allows for complex b
 ![create-client](./media/create-client.png)
 
 ## xMatters Setup
-1. Download the [Cherwell.zip](./Cherwell.zip) file onto your local computer
+1. Download the [CherwellSteps.zip](./CherwellSteps.zip) file onto your local computer
 2. Navigate to the Developer tab of your xMatters instance
 3. Click **Import Plan**, and select the zip file you just downloaded
 
