@@ -3,7 +3,10 @@ This is part of the xMatters Labs Steps awesome listing. For others, see [here](
 
 With this library, you can quickly create and annotate incidents (or any object) from any Flow inside xMatters.
 
-This document details how to install and use these steps. 
+This document details how to install and use the following steps:
+
+1. Create Incident
+2. Annotate Object
 
 ---------
 
