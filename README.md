@@ -1,4 +1,4 @@
-# xMatters ---> Cherwell Integration
+# Cherwell Flow Designer Steps
 This is part of the xMatters Labs Steps awesome listing. For others, see [here](https://github.com/xmatters/xMatters-Labs-Flow-Steps).
 
 With this library, you can quickly create and annotate incidents (or any object) from any Flow inside xMatters.
@@ -44,7 +44,7 @@ Note: To use the Cherwell actions, you must have a Cherwell server with an expos
 ### Create Incident Step
 Note: It may be in your interest to create a Constant for the Customer ID in the Integration Builder so you can drag in the Customer ID from the constants rather than pasting the value each time you want to use the step.
 1. To use the Create Incident Step, click and drag it into the flow, then double click the step to edit it
-2. In the **Setup** tab, fill out or drag in the required inputs - `Short Description`, `Description`, `Owned By Team`, `Priority`, and `Customer ID`
+2. In the **Setup** tab, fill out or drag in the required inputs
 3. In the **Run Location** tab, leave it on `Cloud` if you have an exposed endpoint, or change it to `xMatters agent` if you installed the agent, then select the Cherwell server
 4. In the **Endpoint** tab, click `Create Endpoint`, and fill it out with the following values
 
