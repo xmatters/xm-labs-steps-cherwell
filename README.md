@@ -48,6 +48,22 @@ Note: It may be in your interest to create a Constant for the Customer ID in the
 3. In the **Run Location** tab, leave it on `Cloud` if you have an exposed endpoint, or change it to `xMatters agent` if you installed the agent, then select the Cherwell server
 4. In the **Endpoint** tab, click `Create Endpoint`, and fill it out with the following values
 
+| Key | Value |
+| --- | --- |
+| Name | Cherwell |
+| Base URL | `Cherwell Base URL` |
+| Authentication Type | OAuth2 |
+| Grant Type | Password |
+| Access Token URL | `Cherwell Base URL`/CherwellApi/token |
+| Username | `Cherwell Username` |
+| Password | `Cherwell Password` |
+| Client ID | `Cherwell Client ID` |
+| Client Secret | Any value |
+* `Cherwell Base URL` will be http://localhost if you have installed the xMatters agent, or whatever exposed URL you have if not
+* `Cherwell Username` and `Cherwell Password` are your username and password
+* `Cherwell Client ID` is the client id you created in [Cherwell Setup](#cherwell-setup)
+*  Client Secret can be any value to pass the validation. This value is not used by Cherwell. 
+
 ### Annotate Object Step
 1. To use the Annotate Object Step, click and drag it into the flow, then double click the step to edit it
 2. In the **Setup** tab, fill out or drag in the required inputs - `Parent Rec ID`, `Parent Type Name`, and `Details`
@@ -64,9 +80,11 @@ Note: It may be in your interest to create a Constant for the Customer ID in the
 | Username | `Cherwell Username` |
 | Password | `Cherwell Password` |
 | Client ID | `Cherwell Client ID` |
+| Client Secret | Any value |
 * `Cherwell Base URL` will be http://localhost if you have installed the xMatters agent, or whatever exposed URL you have if not
 * `Cherwell Username` and `Cherwell Password` are your username and password
 * `Cherwell Client ID` is the client id you created in [Cherwell Setup](#cherwell-setup)
+*  Client Secret can be any value to pass the validation. This value is not used by Cherwell. 
 
 # Example Usage:
 
